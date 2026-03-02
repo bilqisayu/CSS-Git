@@ -192,4 +192,69 @@ button:hover {
     .navbar {
         padding: 20px 40px;
     }
+
+    .love-container {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.love-shape {
+    position: relative;
+    width: 350px;
+    height: 320px;
+    margin: 0 auto;
+    background: #b33939;
+    transform: rotate(-45deg);
+    border-radius: 20px;
+}
+
+.love-shape::before,
+.love-shape::after {
+    content: "";
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    background: #b33939;
+    border-radius: 50%;
+}
+
+.love-shape::before {
+    top: -175px;
+    left: 0;
+}
+
+.love-shape::after {
+    left: 175px;
+    top: 0;
+}
+
+.love-shape form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.love-shape input,
+.love-shape textarea {
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.love-shape button {
+    background: #fff;
+    color: #b33939;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.love-shape button:hover {
+    background: #ffe6e6;
+}
 }
