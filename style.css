@@ -1,4 +1,4 @@
-/* ================= RESET ================= */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,15 +11,15 @@ body {
     color: white;
 }
 
-/* ================= TOP BAR ================= */
+
 .top-bar {
-    background: linear-gradient(90deg, #8e2de2, #c471ed);
+    background: linear-gradient(90deg, #8f2e2e, #c471ed);
     text-align: center;
     font-size: 13px;
     padding: 8px;
 }
 
-/* ================= NAVBAR ================= */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -49,7 +49,7 @@ body {
 }
 
 .contact-btn {
-    background: #8e2de2;
+    background: #922828;
     padding: 10px 22px;
     border-radius: 6px;
     color: white !important;
@@ -57,11 +57,11 @@ body {
 }
 
 .contact-btn:hover {
-    background: #a94df0;
+    background: #912d2d;
     transform: translateY(-3px);
 }
 
-/* ================= HERO ================= */
+
 .hero {
     display: flex;
     min-height: 90vh;
@@ -102,7 +102,7 @@ body {
     line-height: 1.6;
 }
 
-/* ================= CONTENT SECTION ================= */
+
 .content-section {
     padding: 80px;
     display: grid;
@@ -132,7 +132,7 @@ body {
 }
 
 .card a {
-    color: #8e2de2;
+    color: #8d4242;
     text-decoration: none;
 }
 
@@ -148,10 +148,10 @@ body {
 }
 
 .card th {
-    background: #8e2de2;
+    background: #842222;
 }
 
-/* ================= FORM ================= */
+
 form {
     display: flex;
     flex-direction: column;
@@ -167,7 +167,7 @@ input, textarea {
 
 button {
     padding: 10px;
-    background: #8e2de2;
+    background: #9d3333;
     color: white;
     border: none;
     border-radius: 6px;
@@ -176,10 +176,10 @@ button {
 }
 
 button:hover {
-    background: #a94df0;
+    background: #a53636;
 }
 
-/* ================= RESPONSIVE ================= */
+
 @media (max-width: 1000px) {
     .hero {
         flex-direction: column;
